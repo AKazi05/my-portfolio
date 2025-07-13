@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base resets and improvements */
+* {
+  @apply m-0 p-0 box-border;
+}
+
+html {
+  @apply scroll-smooth font-sans bg-blue-50 text-slate-900;
+}
+
+body {
+  @apply leading-relaxed text-base;
+}
+
+/* Links */
+a {
+  @apply text-blue-600 no-underline transition-colors duration-300;
+}
+
+a:hover {
+  @apply underline text-blue-800;
+}
+
+/* Typography */
+h1, h2, h3 {
+  @apply font-extrabold tracking-tight leading-tight;
+}
+
+h1 {
+  @apply text-4xl mb-4;
+}
+
+h2 {
+  @apply text-3xl mb-3;
+}
+
+h3 {
+  @apply text-2xl mb-2;
+}
+
+/* Lists */
+ul {
+  @apply list-none;
+}
+
+/* Images */
+img {
+  @apply max-w-full block;
+}
+
+button {
+  @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition;
+  cursor: pointer;
+}
+
+/* Container */
+.container {
+  @apply max-w-5xl mx-auto px-6;
+}
+
+/* Accessibility helper */
+.sr-only {
+  @apply absolute w-px h-px p-0 overflow-hidden whitespace-nowrap border-0;
+}
