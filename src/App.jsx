@@ -9,7 +9,7 @@ function App() {
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between">
           <div>
             <h1 className="text-4xl font-extrabold text-blue-800">Akib Kazi</h1>
-            <p className="text-gray-600 text-lg">Web Developer & Software Engineer</p>
+            <p className="text-gray-600 text-lg">Software Developer</p>
           </div>
           <nav className="mt-4 sm:mt-0">
             <ul className="flex space-x-8 text-blue-700 font-semibold text-lg">
